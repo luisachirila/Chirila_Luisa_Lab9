@@ -54,7 +54,7 @@ namespace Chirila_Luisa_Lab9.Pages.Cars
                 newCar,
                 "Car",
                 i => i.Name, i => i.Company,
-                i => i.Price, i => i.ManufactureDate, i => i.ManufactureID))
+                i => i.Price, i => i.ManufacturingDate, i => i.ManufactureID))
             {
                 _context.Car.Add(newCar);
                 await _context.SaveChangesAsync();

@@ -25,6 +25,6 @@ namespace Chirila_Luisa_Lab9.Models
         public int ManufactureID { get; set; }
         public Manufacture Manufacture { get; set; }
         public ICollection<CarCategory> CarCategories { get; set; }
-        public object ManufactureDate { get; internal set; }
+       
     }
 }
